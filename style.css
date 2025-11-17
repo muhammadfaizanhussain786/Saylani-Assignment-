@@ -1,82 +1,83 @@
 body {
     font-family: Roboto;
 }
-.main_head {
-  font-size: 50px;
-  font-family: Pacifico;
-  font-weight: 900;
-  font-style: normal;
-  color: #8e0000;
-  background-image: linear-gradient(
-    45deg,
-    #8e0000,
-    #b81100 25%,
-    #e22200 50%,
-    #ff3300 75%,
-    #ff6633 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  text-decoration: underline overline grey;
 
+.main_head {
+    text-align: center;
+    text-decoration: underline overline;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    word-spacing: 10px;
+    background: linear-gradient(45deg,
+            #8e0000,
+            #b81100 25%,
+            #e22200 50%,
+            #ff3300 75%,
+            #ff6633 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-family: Pacifico;
+    font-weight: 900;
 }
+
 .first_para::first-line {
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
+
 .first_para::first-letter {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 500;
     color: #8e0000;
-    background-image: linear-gradient(
-    45deg,
-    #8e0000,
-    #b81100 25%,
-    #e22200 50%,
-    #ff3300 75%,
-    #ff6633 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg,
+            #8e0000,
+            #b81100 25%,
+            #e22200 50%,
+            #ff3300 75%,
+            #ff6633 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .third_para {
     font-size: 21px;
-    
+
 }
+
 .para::first-letter {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 500;
     color: #8e0000;
-    background-image: linear-gradient(
-    45deg,
-    #8e0000,
-    #b81100 25%,
-    #e22200 50%,
-    #ff3300 75%,
-    #ff6633 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg,
+            #8e0000,
+            #b81100 25%,
+            #e22200 50%,
+            #ff3300 75%,
+            #ff6633 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
+
 a {
     text-decoration: none;
 }
+
 a:link {
     color: blue;
 }
+
 a:visited {
     color: orangered;
 }
+
 a:active {
     color: aqua;
 }
+
 .para {
     text-transform: uppercase;
 }
